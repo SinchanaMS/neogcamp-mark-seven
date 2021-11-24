@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dothraki Translator</title>
+    <style>
+        body {
+            background-image: url(/images/dothraki.jpg);
+            background-position:inherit;
+            background-size: cover;          
+        }
+
+        textarea{
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            padding: 2rem;
+            margin: auto;
+            display: block;
+            border-radius: 1rem;
+            opacity: 0.8;
+            text-align: center;
+            background-color:#FFFBEB;
+                }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            padding: 2rem;
+            margin: auto;
+            display: block;
+            background-color: #FFFBEB;
+            border-radius: 1rem;
+            opacity: 0.8;
+            text-align: center;
+        }
+
+        #btn-dothraki{
+            display: block;
+            padding: 1rem 3rem;
+            font-size: medium;
+            background-color: #FFFBEB;
+            opacity: 0.8;
+            border-radius: 1rem;
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 4rem;
+            
+        }
+
+        .container {
+            margin: auto;
+            
+        }
+
+        .container-center {
+            margin: auto;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; padding: 1rem">Speak in Dothraki</h1>
+    <textarea id="txt-input" class="container" placeholder="Input your text here." style="color: black; font-weight: bold;"></textarea>
+    <button id="btn-dothraki" class="container" >Translate to Dothraki</button>
+    <div id="output" class="container"></div>
+    <script src="app.js" type=text/javascript></script>
+</body>
+</html>
